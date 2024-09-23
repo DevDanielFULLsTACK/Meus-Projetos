@@ -21,6 +21,6 @@ Clonar o repositório: Baixe o código para o seu computador local.
 
 Abra o projeto em um editor de código como Visual Studio Code ou Sublime Text.
 
-Acesse a aplicação: Inicie o Projeto e veja o rodar!.
+Acesse a aplicação: Inicie o Projeto e veja o rodar!
 
 
