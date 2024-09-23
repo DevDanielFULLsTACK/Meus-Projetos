@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Encomendas - Minimalist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Minimalist</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pagina inicial</a></li>
+                <li><a href="encomenda.html">Encomenda</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="order-section">
+        <h1>Encomende Seu Tênis Favorito</h1>
+        <p>Selecione o tênis que deseja encomendar diretamente do estoque.</p>
+
+        <form action="submit_order.php" method="POST" class="order-form">
+            <div class="product-option">
+                <input type="radio" id="tenis1" name="tenis" value="Tenis 1" required>
+                <label for="tenis1">
+                    <img src="Tênis Couro RS6 Branco.png" alt="Tênis 1">
+                    <h3>Tênis Couro RS6 Branco</h3>
+                    <p>R$200,00</p>
+                </label>
+            </div>
+
+            <div class="product-option">
+                <input type="radio" id="tenis2" name="tenis" value="Tenis 2">
+                <label for="tenis2">
+                    <img src="Tênis Couro RS6 Preto.png" alt="Tênis 2">
+                    <h3>Tênis Couro RS6 preto</h3>
+                    <p>R$250,00</p>
+                </label>
+            </div>
+
+            <div class="product-option">
+                <input type="radio" id="tenis3" name="tenis" value="Tenis 3">
+                <label for="tenis3">
+                    <img src="Mykonos 3.0.png" alt="Tênis 3">
+                    <h3>Mykonos 3.0</h3>
+                    <p>R$230,00</p>
+                </label>
+            </div>
+
+            <div class="product-option">
+                <input type="radio" id="tenis4" name="tenis" value="Tenis 4">
+                <label for="tenis4">
+                    <img src="Tênis Vibs All Black.png" alt="Tênis 4">
+                    <h3>Tênis Vibs ALL Black</h3>
+                    <p>R$220,00</p>
+                </label>
+            </div>
+
+            <div class="product-option">
+                <input type="radio" id="tenis5" name="tenis" value="Tenis 5">
+                <label for="tenis5">
+                    <img src="Nuvem ALL Black 2.png" alt="Tênis 5">
+                    <h3>Nuvem ALL Black 2</h3>
+                    <p>R$210,00</p>
+                </label>
+            </div>
+
+            <div class="user-details">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="endereco">Endereço de Entrega:</label>
+                <input type="text" id="endereco" name="endereco" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <button type="submit" class="cta-button">Encomendar Agora</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu E-commerce. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
